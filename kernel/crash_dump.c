@@ -14,7 +14,7 @@
  */
 unsigned long long elfcorehdr_addr = ELFCORE_ADDR_MAX;
 EXPORT_SYMBOL_GPL(elfcorehdr_addr);
-
+unsigned long long elfcorehdr = ELFCORE_ADDR_MAX;
 /*
  * stores the size of elf header of crash image
  */
